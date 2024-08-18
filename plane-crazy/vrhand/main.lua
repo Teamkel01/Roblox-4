@@ -39,7 +39,7 @@ if _G.Enabled then
                     table.insert(nodes, v)
                 end
                 zeroGrav(v)
-                v.CanCollide = false
+                v.CanCollide = true
             end
         end
         task.wait(.03)
